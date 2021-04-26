@@ -1,0 +1,38 @@
+.blog .jumbotron {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--mainColor);
+}
+
+.blog .jumbotron:nth-child(even) {
+    direction: ltr;
+}
+
+.blog .jumbotron .blog-desc {
+    width: 55%;
+}
+
+.blog .jumbotron .blog-desc h4 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.blog .jumbotron .blog-img {
+    width: 40%;
+}
+
+@media (max-width: 768px) {
+    .blog .jumbotron {
+        display: block;
+    }
+    .blog .jumbotron .blog-desc {
+        width: 100%;
+    }
+    .blog .jumbotron .blog-desc p {
+        font-size: 15px;
+    }
+    .blog .jumbotron .blog-img {
+        width: 100%;
+    }
+}

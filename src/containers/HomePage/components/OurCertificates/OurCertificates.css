@@ -1,0 +1,18 @@
+.OurCertificates_card {
+    padding-right: 100px;
+    padding-left: 0;
+}
+
+.OurCertificates img {
+    float: right;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 38px;
+    line-height: 85px;
+    border-radius: 100%;
+}
+
+.OurCertificates p {
+    width: 100%;
+}

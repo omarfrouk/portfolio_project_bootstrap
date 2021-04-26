@@ -1,0 +1,26 @@
+.single_project {
+    display: block;
+    margin-bottom: 30px;
+    background-color: #ddd;
+    color: #000 !important;
+}
+
+.single_project:hover {
+    color: #000 !important;
+}
+
+.single_project_img img {
+    width: 100%;
+}
+
+.single_project_info {
+    padding: 10px;
+}
+
+.single_project_info h4 {
+    font-size: 18px;
+}
+
+.single_project_info p {
+    font-size: 15px;
+}

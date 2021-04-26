@@ -1,0 +1,15 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 3rem;
+    left: 1rem;
+    padding: 0 1px;
+    cursor: pointer;
+    z-index: 99;
+    font-size: 40px;
+    transform: rotate(-90deg);
+}
+
+.scroll-to-top:hover {
+    color: var(--mainColor);
+    background-color: black;
+}

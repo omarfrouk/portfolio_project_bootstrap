@@ -1,0 +1,9 @@
+.breadcrumb {
+    margin: 0;
+    justify-content: flex-end;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    padding-right: .3rem;
+    padding-left: .3rem;
+}

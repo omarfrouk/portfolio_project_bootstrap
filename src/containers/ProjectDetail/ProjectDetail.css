@@ -1,0 +1,36 @@
+.quote-title-area {
+    background: #505050;
+    color: #fff;
+    font-size: 13px;
+    padding: 20px 15px;
+    margin-top: 20px;
+}
+
+.quote-form-area {
+    box-shadow: 0 0 7px #ccc;
+    padding: 20px 15px;
+}
+
+.quote-form-area label {
+    color: #666;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.quote-form-area input {
+    background: #eee;
+    border: medium transparent;
+    height: 50px;
+    padding: 15px;
+    width: 100%;
+}
+
+.quote-form-area textarea {
+    background: #eee;
+    border: medium transparent;
+    height: 130px;
+    padding: 15px;
+    width: 100%;
+}

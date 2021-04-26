@@ -1,0 +1,13 @@
+.news {
+    background: #eee;
+}
+
+.news .news-left {
+    display: flex;
+    align-items: center;
+}
+
+.news .news-left img {
+    max-width: 200px;
+    margin-left: 10px;
+}

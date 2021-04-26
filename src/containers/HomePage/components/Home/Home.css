@@ -1,0 +1,37 @@
+.home {
+    height: 600px;
+    background: url("../../assets/slide-bg-1.jpg");
+    background-size: hover;
+    padding: 1px;
+}
+
+.home-item {
+    width: 50%;
+    margin-top: 15%;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .home {
+        height: 400px;
+    }
+    .home-item {
+        width: 100%;
+    }
+    .home-item h2 {
+        font-size: 30px !important;
+    }
+    .home-item p {
+        font-size: 15px !important;
+    }
+}
+
+.home-item h2 {
+    color: white;
+    font-size: 45px;
+}
+
+.home-item p {
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,13 @@
+.teamMember {
+    text-align: center;
+}
+
+.memberImg img {
+    width: 250px;
+}
+
+@media (max-width: 768px) {
+    .memberImg img {
+        width: 90%;
+    }
+}
